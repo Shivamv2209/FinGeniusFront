@@ -2,15 +2,15 @@ import { useState, useEffect, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const teamMembers = [
-  { name: "Sakshar", role: "Designer", image: "/src/assets/sakashar.jpeg" },
-  { name: "Love", role: "Designer & Trader", image: "/src/assets/love.jpeg" },
+  { name: "Sakshar", role: "Designer", image: "/public/sakashar.jpeg" },
+  { name: "Love", role: "Designer & Trader", image: "/public/love.jpeg" },
   {
     name: "Shivam",
     role: "Fullstack Developer",
-    image: "/src/assets/shivam.jpeg",
+    image: "/public/shivam.jpeg",
   },
-  { name: "Parv", role: "Fullstack Developer", image: "/src/assets/parv.jpeg" },
-  { name: "Aditya", role: "AI Expert", image: "/src/assets/aditya.jpeg" },
+  { name: "Parv", role: "Fullstack Developer", image: "/public/parv.jpeg" },
+  { name: "Aditya", role: "AI Expert", image: "/public/aditya.jpeg" },
 ];
 
 function Team() {
