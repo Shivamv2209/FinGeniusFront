@@ -153,10 +153,16 @@ function Navbar() {
             className="absolute right-10 top-10 mt-1 w-40 bg-zinc-900 border-zinc-700 border-2 rounded-md shadow-lg z-[9999]"
           >
             <ul className="py-1 text-white">
+              <li className="px-4 py-2 hover:bg-gray-300 hover:text-black rounded-md cursor-pointer"><a href="#Feature">Features</a></li>
+              <hr className="text-zinc-700 mt-3"/>
+              <li className="px-4 py-2 hover:bg-gray-300 hover:text-black rounded-md cursor-pointer"><a href="#Team">About Us</a></li>
+              <hr className="text-zinc-700 mt-3"/>
+              <li className="px-4 py-2 hover:bg-gray-300 hover:text-black rounded-md cursor-pointer"><a href="#Footer">Contacts</a></li>
+              <hr className="text-zinc-700 mt-3"/>
               <li className="px-4 py-2 hover:bg-gray-300 hover:text-black rounded-md cursor-pointer">
                 <Link to="/signup">Sign Up</Link>
               </li>
-              <hr className=""/>
+              <hr className="text-zinc-700 mt-3"/>
               <li className="px-4 py-2 hover:bg-gray-300 hover:text-black rounded-md cursor-pointer">
                 <Link to="/login">Log In</Link>
               </li>
