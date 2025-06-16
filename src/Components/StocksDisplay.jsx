@@ -1,5 +1,5 @@
 import React from "react";
-import Bar from "./StocksPage/bar";
+import Bar from "./Bar";
 
 function StocksDisplay(){
     return(
