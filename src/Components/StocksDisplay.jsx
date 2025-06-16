@@ -1,5 +1,6 @@
 import React from "react";
 import Bar from "./Bar";
+import StockShow from "./StockShow";
 
 function StocksDisplay(){
     return(
@@ -7,6 +8,7 @@ function StocksDisplay(){
             <hr className="text-zinc-600"/>
             <Bar />
             <hr className="text-zinc-600"/>
+            <StockShow />
         </div>
     )
 }
