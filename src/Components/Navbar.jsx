@@ -69,13 +69,13 @@ function Navbar() {
           <div className="flex gap-3">
             <Link
               to="/stocks/user/explore"
-              className={`lg:text-2xl text-xl font-semibold hover:text-white ${location.pathname==="/stocks/user/explore" ? "text-white" : "text-zinc-500"}`}
+              className={`lg:text-xl text-xl font-semibold hover:text-white ${location.pathname==="/stocks/user/explore" ? "text-white" : "text-zinc-500"}`}
             >
               STOCKS
             </Link>
             <Link
               to="/Mutual-Funds/user/explore"
-              className={`lg:text-2xl text-xl font-semibold hover:text-white ${location.pathname === "/Mutual-Funds/user/explore" ? "text-white" : "text-zinc-500"}`}
+              className={`lg:text-xl text-xl font-semibold hover:text-white ${location.pathname === "/Mutual-Funds/user/explore" ? "text-white" : "text-zinc-500"}`}
             >
               MUTUAL FUNDS
             </Link>
@@ -90,7 +90,7 @@ function Navbar() {
           <div className="lg:hidden flex gap-3 items-center">
             <IoIosNotifications className="text-zinc-400 hover:text-white font-semibold text-2xl cursor-pointer" />
             <div className="rounded-full h-10 w-10 hover:bg-rose-400 bg-rose-700 flex justify-center items-center gap-1 cursor-pointer text-white font-semibold text-md">
-              <button onClick={toggleuserdrop}>{user.firstname[0]}</button>
+              <button onClick={toggleuserdrop} className="capitalize" >{user.firstname[0]}</button>
             
             {userdropdown && (
                 <div
@@ -209,7 +209,7 @@ function Navbar() {
           <div className="flex gap-3 items-center">
             <IoIosNotifications className="text-zinc-400 hover:text-white font-semibold text-2xl cursor-pointer" />
             <div className="rounded-full h-10 w-10 bg-rose-700 hover:bg-rose-400 flex justify-center items-center gap-1 cursor-pointer text-white font-semibold text-md">
-              <button className="h-6 w-6" onClick={toggleuserdrop}>
+              <button className="h-6 w-6 capitalize"  onClick={toggleuserdrop}>
                 {user.firstname[0]}
               </button>
               {userdropdown && (

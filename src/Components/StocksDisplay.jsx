@@ -1,15 +1,22 @@
 import React from "react";
 import Bar from "./Bar";
 import StockShow from "./StockShow";
+import Footer from "./Footer";
+
 
 function StocksDisplay(){
     return(
-        <div className="w-screen h-[86vh] bg-zinc-900">
+        <>
+        <div className="w-screen h-auto bg-zinc-900">
             <hr className="text-zinc-600"/>
             <Bar />
             <hr className="text-zinc-600"/>
             <StockShow />
         </div>
+        <hr className="text-zinc-800"/>
+        <Footer />
+        </>
+
     )
 }
 

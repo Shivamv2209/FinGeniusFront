@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-    baseURL: "fingenius-back-nn7wvmqpz-shivamv2209s-projects.vercel.app/api",
+    baseURL: "http://localhost:3000/api",
     headers: {
         "Content-Type": "application/json",
     },

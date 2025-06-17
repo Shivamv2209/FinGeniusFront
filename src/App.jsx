@@ -6,6 +6,9 @@ import Login from "./Pages/Login";
 import StocksPage from "./Pages/StocksPage"
 import Protected from "./utils/Protected";
 import MutualFundsPage from "./Pages/MutualFundsPage";
+import StocksComparison from "./Pages/stockscomparison";
+import AiPage from "./Pages/AiPage";
+import FundsCompare from "./Pages/FundsCompare"
 
 
 function App(){
@@ -17,6 +20,9 @@ function App(){
      <Route path="/login" element={<Login />} />
      <Route path="/stocks/user/explore" element={<Protected><StocksPage /></Protected>} />
      <Route path="/Mutual-Funds/user/explore" element={<Protected><MutualFundsPage /></Protected>} />
+     <Route path="/stocks/user/compare" element={<Protected><StocksComparison /></Protected>} />
+     <Route path="/user/fin/ai" element={<Protected><AiPage /></Protected>} />
+     <Route path="/mutual-funds/user/compare" element={<Protected><FundsCompare /></Protected>} />
     </Routes>
     
   )
