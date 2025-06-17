@@ -12,9 +12,9 @@ function StocksDisplay(){
             <Bar />
             <hr className="text-zinc-600"/>
             <StockShow />
-        </div>
-        <hr className="text-zinc-800"/>
+            <hr className="text-zinc-800"/>
         <Footer />
+        </div>
         </>
 
     )
