@@ -6,7 +6,7 @@ import Login from "./Pages/Login";
 import StocksPage from "./Pages/StocksPage"
 import Protected from "./utils/Protected";
 import MutualFundsPage from "./Pages/MutualFundsPage";
-import StocksComparison from "./Pages/stockscomparison";
+import StocksComparison from "./Pages/StocksComparison";
 import AiPage from "./Pages/AiPage";
 import FundsCompare from "./Pages/FundsCompare"
 
